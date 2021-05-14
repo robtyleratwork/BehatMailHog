@@ -1,6 +1,5 @@
 # Behat MailHog Context Class
 
-
 Adds Behat steps that examine the content of the last email captured by MailHog.
 
 ## Behat Steps
@@ -32,7 +31,7 @@ When I follow "click this link" in last email
 ## Installation
 
 1. The [MinkExtension](https://github.com/Behat/MinkExtension) is required.
-2. Clone the repository into your ```features/bookstrap``` directory.
+2. Clone the repository into your ```features/bootstrap``` directory.
 2. Update your ```behat.yaml``` file to reference the new context class:
 ```
             contexts:
